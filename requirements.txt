@@ -1,0 +1,7 @@
+streamlit==1.31.0
+pandas
+plotly==5.18.0
+groq
+openpyxl==3.1.2
+python-dotenv
+openai

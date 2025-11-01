@@ -1,0 +1,92 @@
+# -----------------------------
+# 🧠 PYTHON PROJECT GITIGNORE
+# Project Samarth Prototype
+# -----------------------------
+
+# ====== Python Bytecode ======
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ====== Virtual Environments ======
+# (Don’t upload your local virtual env folders)
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+.venv*/
+
+# ====== Environment Variables / Secrets ======
+# (Never upload API keys, tokens, or environment files)
+.env
+.env.*
+*.env
+
+# ====== VS Code / IDE Settings ======
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ====== System Files ======
+.DS_Store
+Thumbs.db
+
+# ====== Logs and Temp Files ======
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ====== Build and Distribution ======
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ====== Cache ======
+__pycache__/
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ====== Data or Model Outputs (optional) ======
+# Uncomment these if you generate large data/model files
+# data/
+# outputs/
+# checkpoints/
+# models/
+# saved_models/
+
+# ====== Streamlit Specific ======
+.streamlit/
+
+# ====== Jupyter Notebook Checkpoints ======
+.ipynb_checkpoints/
+
+# ====== OS Specific ======
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ====== Backup or Temp Files ======
+*.bak
+*.old
+*.orig
+*.tmp
+*.swp
+*.swo
+
+# ====== Python Packaging ======
+*.egg
+*.manifest
+*.spec
+
+# ====== Testing and Coverage ======
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
